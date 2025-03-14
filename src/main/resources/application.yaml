@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: gen_ai_training
+
+client:
+  openai:
+    key: ${CLIENT_OPENAI_KEY}
+    endpoint: ${CLIENT_OPENAI_ENDPOINT}
+    deployment-name: gpt-35-turbo
